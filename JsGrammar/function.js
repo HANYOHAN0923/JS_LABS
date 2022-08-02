@@ -5,13 +5,16 @@ function greet(name) {
 
 const calculator = {
   add: function (x, y) {
-    console.log(x + y);
+    return x + y;
   },
   multiply: function (x, y) {
-    console.log(x * y);
+    return x * y;
   },
 };
 
 greet("Yuri");
-calculator.add(1, 1);
-calculator.multiply(20, 100);
+a = calculator.add(1, 1);
+b = calculator.multiply(20, 100);
+
+console.log(a);
+console.log(b);
